@@ -13,14 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-💌 always open di wa 
-💸 bank, e-wallet, QRIS, pulsa
-‼️ full garansi
+Voucher shopeefood diskon 100% max 20rb + gratis ongkir 3rb ✨ ‼️ 
 
-order, testi, & pricelist  👇
-☎️ linktr.ee/Netviapulsa
+Klaim di resto sebelum habis 👇👇👇
+https://spf.shopee.co.id/6VFQHftOOy
+https://spf.shopee.co.id/6VFQHftOOy
 
-t. canva hbo go disney+ hotstar wetv viu vidio amazon prime video beli sharing telkomsel indosat tsel loklok convert iqiyi daget vsco lightroom preset
+t. gofood grabfood kode promo go grab shopee food sfood voucher gacoan daget gojek
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -37,4 +36,5 @@ t. canva hbo go disney+ hotstar wetv viu vidio amazon prime video beli sharing t
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
