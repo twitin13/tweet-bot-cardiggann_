@@ -13,7 +13,7 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Jasa ketik/tulis, PPT, Excel, makalah Essay, Artikel, Jurnal, Laporan, Soal, Daftar Pustaka/ Isi , Penomoran, parafrase, Skripsi, Proposal, TOEFL/TOEIC, CV, Desain, DLL. 
+Jasa ketik/tulis, PPT, Excel, Essay, Artikel, Jurnal, Laporan, Soal, Daftar Pustaka/ Isi, parafrase, Skripsi, Proposal, TOEFL/TOEIC, CV, Desain, DLL. 
 
 Avail SD/SMP/SMA/KULIAH ‼️
 Dikerjakan tim minimal S1 🧑‍🎓
@@ -22,7 +22,7 @@ Fee bisa nego, data & privasi 100% aman! 💯
 `;
 
     // 📸 Upload 1 gambar dari repo
-    const mediaId = await client.v1.uploadMedia('2.jpg');
+    const mediaId = await client.v1.uploadMedia('1.jpg');
 
     // 🐦 Kirim tweet dengan teks + gambar
     const tweet = await client.v2.tweet({
@@ -35,6 +35,7 @@ Fee bisa nego, data & privasi 100% aman! 💯
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
