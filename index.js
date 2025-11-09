@@ -13,17 +13,16 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Voucher shopeefood diskon 100% max 20rb + gratis ongkir 3rb ✨ ‼️ 
+Jasa ketik/tulis, PPT, Excel, makalah Essay, Artikel, Jurnal, Laporan, Soal, Daftar Pustaka/ Isi , Penomoran, parafrase, Skripsi, Proposal, TOEFL/TOEIC, CV, Desain, DLL. 
 
-Klaim di resto sebelum habis 👇👇👇
-https://spf.shopee.co.id/6VFQHftOOy
-https://spf.shopee.co.id/6VFQHftOOy
-
-t. gofood grabfood kode promo go grab shopee food sfood voucher gacoan daget gojek
+Avail SD/SMP/SMA/KULIAH ‼️
+Dikerjakan tim minimal S1 🧑‍🎓
+Fee bisa nego, data & privasi 100% aman! 💯
+💌 WA di bio 
 `;
 
     // 📸 Upload 1 gambar dari repo
-    const mediaId = await client.v1.uploadMedia('1.jpg');
+    const mediaId = await client.v1.uploadMedia('2.jpg');
 
     // 🐦 Kirim tweet dengan teks + gambar
     const tweet = await client.v2.tweet({
@@ -36,5 +35,6 @@ t. gofood grabfood kode promo go grab shopee food sfood voucher gacoan daget goj
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
