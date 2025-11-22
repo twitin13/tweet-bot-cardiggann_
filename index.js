@@ -13,12 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Jasa ketik/tulis, PPT, Excel, Essay, Artikel, Jurnal, Laporan, Soal, Daftar Pustaka/ Isi, parafrase, Skripsi, Proposal, TOEFL/TOEIC, CV, Desain, DLL. 
+Cari freelance / WFH? Affiliate aja gampang banget! 💸 
 
-Avail SD/SMP/SMA/KULIAH ‼️
-Dikerjakan tim minimal S1 🧑‍🎓
-Fee bisa nego, data & privasi 100% aman! 💯
-💌 WA di bio 
+Mulai 4K-an aja udah dapat TOTAL 6.000+ konten siap upload + link 🔥
+
+🛒 Bisa akses kesini yaa lynk.id/swiftory
+
+t. cara tips info loker Shopee Lazada Tokopedia Tiktok bank kumpulan video #zonauang 
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -35,6 +36,7 @@ Fee bisa nego, data & privasi 100% aman! 💯
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
