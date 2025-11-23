@@ -13,13 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Cari freelance / WFH? Affiliate aja gampang banget! 💸 
+Open joki sesuai budget all spess 24/7 𐙚 📚 ☁︎｡
 
-Mulai 4K-an aja udah dapat TOTAL 6.000+ konten siap upload + link 🔥
+tugas soal, skripsi, makalah, proposal, jurnal, laporan, PPT, MYOB, ABSS, Zahir, Brevet Pajak, SAP, BNSP, TOEIC, TOEFL, dll.
 
-🛒 Bisa akses kesini yaa lynk.id/swiftory
+AVAIL SEMUA MATPEL/MATKUL ‼️
 
-t. cara tips info loker Shopee Lazada Tokopedia Tiktok bank kumpulan video #zonauang 
+*promo sertifikasi Accurate CAP cek bio ✨ #zonauang 
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -36,6 +36,7 @@ t. cara tips info loker Shopee Lazada Tokopedia Tiktok bank kumpulan video #zona
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
