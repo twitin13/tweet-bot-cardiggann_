@@ -13,13 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Open joki sesuai budget all spess 24/7 𐙚 📚 ☁︎｡
+Cari freelance / WFH? Affiliate aja gampang banget! 💸 
 
-tugas soal, skripsi, makalah, proposal, jurnal, laporan, PPT, MYOB, ABSS, Zahir, Brevet Pajak, SAP, BNSP, TOEIC, TOEFL, dll.
+Mulai 4K-an aja udah dapat TOTAL 6.000+ konten siap upload + link 🔥
 
-AVAIL SEMUA MATPEL/MATKUL ‼️
+🛒 Bisa akses kesini yaa lynk.id/swiftory
 
-*promo sertifikasi Accurate CAP cek bio ✨ #zonauang 
+t. cara tips info loker Shopee Lazada Tokopedia Tiktok bank kumpulan video #zonauang 
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -36,6 +36,7 @@ AVAIL SEMUA MATPEL/MATKUL ‼️
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
