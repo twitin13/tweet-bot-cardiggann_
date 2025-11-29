@@ -19,7 +19,7 @@ Mulai 4K-an aja udah dapat TOTAL 6.000+ konten siap upload + link 🔥
 
 🛒 Bisa akses kesini yaa lynk.id/swiftory
 
-t. cara tips info loker Shopee Lazada Tokopedia Tiktok bank kumpulan video #zonauang 
+t. cara tips info loker Shopee Lazada Tokopedia Tiktok bank kumpulan video Gary iskak raisa 
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -36,6 +36,7 @@ t. cara tips info loker Shopee Lazada Tokopedia Tiktok bank kumpulan video #zona
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
